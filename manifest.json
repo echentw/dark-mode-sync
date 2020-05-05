@@ -1,0 +1,12 @@
+{
+  "name": "Dark Mode Sync",
+  "version": "0.1",
+  "description": "Sync dark mode with websites",
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["youtube.js"]
+    }
+  ],
+  "manifest_version": 2
+}
