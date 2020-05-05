@@ -1,12 +1,19 @@
 window.addEventListener('load', () => {
   const main = () => {
-    const logger = (arg1, arg2) => {
-      if (arg2 === undefined) {
-        console.log("[Dark Mode Sync]:", arg1);
-      } else {
-        console.log("[Dark Mode Sync]: " + arg1, arg2);
-      }
-    };
+    const LOGGING = false;
+
+    let logger;
+    if (LOGGING) {
+      logger = (arg1, arg2) => {
+        if (arg2 === undefined) {
+          console.log("[Dark Mode Sync]:", arg1);
+        } else {
+          console.log("[Dark Mode Sync]: " + arg1, arg2);
+        }
+      };
+    } else {
+      logger = () => {};
+    }
 
     function syncDarkMode() {
       const profileButton = document.getElementById('USER_DROPDOWN_ID');

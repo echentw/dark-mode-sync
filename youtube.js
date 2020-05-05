@@ -1,7 +1,7 @@
 window.addEventListener('load', () => {
 
   const main = () => {
-    const LOGGING = true;
+    const LOGGING = false;
 
     let logger;
     if (LOGGING) {
@@ -134,7 +134,7 @@ window.addEventListener('load', () => {
     });
 
     observer.observe(document.documentElement, {
-      attributes: true //configure it to listen to attribute changes
+      attributes: true,
     });
   };
 
