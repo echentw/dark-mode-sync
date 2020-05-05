@@ -6,6 +6,10 @@
     {
       "matches": ["https://*.youtube.com/*"],
       "js": ["youtube.js"]
+    },
+    {
+      "matches": ["https://*.reddit.com/*"],
+      "js": ["reddit.js"]
     }
   ],
   "manifest_version": 2
