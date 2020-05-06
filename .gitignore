@@ -1,1 +1,4 @@
 scratch/
+dist/
+*.mov
+*.zip
