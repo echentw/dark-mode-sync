@@ -10,6 +10,10 @@
     {
       "matches": ["https://*.reddit.com/*"],
       "js": ["reddit.js"]
+    },
+    {
+      "matches": ["https://*.stackoverflow.com/*"],
+      "js": ["stackoverflow.js"]
     }
   ],
   "manifest_version": 2
