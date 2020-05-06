@@ -50,7 +50,6 @@ window.addEventListener('load', () => {
       const cookie = decodeCookie(rawCookie);
       const pref = decodePref(cookie['PREF']);
 
-      delete pref['f4'];
       pref['f6'] = '400';
 
       const encodedPref = encodePref(pref);
@@ -61,8 +60,7 @@ window.addEventListener('load', () => {
       const cookie = decodeCookie(rawCookie);
       const pref = decodePref(cookie['PREF']);
 
-      pref['f4'] = '4000000';
-      delete pref['f6'];
+      pref['f6'] = '80000';
 
       const encodedPref = encodePref(pref);
       return 'PREF=' + encodedPref;
