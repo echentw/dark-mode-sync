@@ -14,6 +14,10 @@
     {
       "matches": ["https://*.stackoverflow.com/*"],
       "js": ["stackoverflow.js"]
+    },
+    {
+      "matches": ["https://*.twitter.com/*"],
+      "js": ["twitter.js"]
     }
   ],
   "manifest_version": 2
