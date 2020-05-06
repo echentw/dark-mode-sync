@@ -1,6 +1,6 @@
 {
   "name": "Dark Mode Sync",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Sync dark mode with websites",
   "content_scripts": [
     {
