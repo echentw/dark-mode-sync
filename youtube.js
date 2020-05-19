@@ -17,6 +17,9 @@ window.addEventListener('load', () => {
     }
 
     function _decode(rawString, entryDelimiter, kvDelimiter) {
+      if (!rawString) {
+        return {};
+      }
       return rawString
         .split(entryDelimiter)
         .map(rawItem => {
