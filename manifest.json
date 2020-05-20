@@ -2,6 +2,12 @@
   "name": "Dark Mode Sync",
   "version": "0.3",
   "description": "Sync dark mode with websites",
+  "browser_action": {
+    "default_icon": {
+      "32": "logo32.png",
+      "128": "logo128.png"
+    }
+  },
   "content_scripts": [
     {
       "matches": ["https://*.youtube.com/*"],
