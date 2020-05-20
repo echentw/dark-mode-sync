@@ -9,6 +9,9 @@ cp stackoverflow.js dist/
 cp twitter.js dist/
 cp twitch.js dist/
 
+cp logo32.png dist/
+cp logo128.png dist/
+
 cd dist/
 
 zip -r ../dark-mode-sync.zip .
