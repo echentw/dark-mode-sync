@@ -1,6 +1,6 @@
 {
   "name": "Dark Mode Sync",
-  "version": "0.3",
+  "version": "0.4",
   "description": "Sync dark mode with websites",
   "browser_action": {
     "default_icon": {
